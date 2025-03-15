@@ -1,0 +1,11 @@
+def reverse_string(s):
+    res = ""
+
+    for i in range(len(s)-1,-1,-1):
+        res +=s[i]
+
+    return res
+
+
+s = "abc"
+print(reverse_string(s))
