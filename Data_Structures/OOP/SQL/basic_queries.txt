@@ -1,0 +1,15 @@
+select * from products
+
+select name , tags from products
+
+select customer_name , city from customers
+
+select * from customers  where customer_name like 'B%'
+
+select * from customers where city like 'Big%'
+
+select * from orders where order_date >= '2023-01-01' and order_date < '2023-12-31';
+
+select distinct customer_name, city from customers;
+
+select * from products where mod(id, 2) = 0;

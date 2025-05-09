@@ -1,0 +1,17 @@
+
+
+
+* Anything which repeats itself called loop
+
+
+* print Hello world 10 times
+
+#concept of loops
+
+1. Execute group of  instructions multiple times without writing same block of code repeateedly.
+
+    1. Entry controlled loop(for / while)
+    2. Exit Controlled loop (do-while)
+
+
+
